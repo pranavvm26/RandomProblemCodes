@@ -19,7 +19,7 @@ def generate_matrix(rand_range,n_value):
 
     return matrix
 
-def check_for_mustketeers(matrix, n):
+def check_for_musketeers(matrix, n):
     """
     This function is dedicated towards checking the matrix for 3 repeating values of the same number.
     First, we check horizontally for repeating values, then vertically. If we find any 3 concequtive numbers
@@ -76,5 +76,5 @@ if __name__== "__main__":
     n_value = int(n_value)
     matrix = generate_matrix(rand_range,n_value)
     print(matrix)
-    ret = check_for_mustketeers(matrix, n_value)
+    ret = check_for_musketeers(matrix, n_value)
     print(ret)
