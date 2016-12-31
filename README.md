@@ -7,23 +7,51 @@ However, no column or row can have same type of element appears 3 times or above
 ex: 
 
 valid, below: 
->> 1 2 1 1
+> 1 2 1 1
 
->> 3 1 4 2 
+> 3 1 4 2 
 
->> 1 2 4 2 
+> 1 2 4 2 
 
->> 3 1 2 3 
+> 3 1 2 3 
 
 invalid, below: 
->> 1 2 1 3 
+> 1 2 1 3 
 
->> 1 3 4 2 
+> 1 3 4 2 
 
->> 1 2 4 4 
+> 1 2 4 4 
 
->> 2 3 2 2
+> 2 3 2 2
 
 because the first column has element 1 appears three times and all 1s are connected to each other.
 
 ## end of matrix_problem.py description.
+
+## FIND LONGEST PALINDROME IN A WORD - find_longest_palindrome.py
+Return the length of longest possible chunked palindrome string. 
+
+Examples : 
+
+> Input : VOLVO 
+
+> Output : 3 
+
+Explanation : 
+(VO)L(VO) 
+
+
+> Input : merchant 
+
+> Output : 1 
+
+Explanation : 
+No chunks possible. 
+
+> Input : ghiabcdefhelloadamhelloabcdefghi 
+
+> Output : 7 
+
+Explanation : 
+(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)
+
