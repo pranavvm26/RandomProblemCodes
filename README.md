@@ -26,8 +26,6 @@ invalid, below:
 
 because the first column has element 1 appears three times and all 1s are connected to each other.
 
-## end of matrix_problem.py description.
-
 ## FIND LONGEST PALINDROME IN A WORD - find_longest_palindrome.py
 Return the length of longest possible chunked palindrome string. 
 
