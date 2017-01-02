@@ -30,8 +30,8 @@ def find_pattern(pattern):
 
 
 if __name__ == "__main__":
-    pattern = input("please enter the pattern in comma seperated format:")
-    user_pattern = input("enter the pattern in comma seperated format:")
+    pattern = input("please enter the pattern in comma seperated format, example-a,b,b,a:")
+    user_pattern = input("please enter the list to find the pattern in, comma seperated format, example-dog,cat,cat,dog:")
     pattern = pattern.split(",")
     user_pattern = user_pattern.split(",")
     num_pattern = find_pattern(pattern)
