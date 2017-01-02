@@ -26,7 +26,7 @@ invalid, below:
 
 because the first column has element 1 appears three times and all 1s are connected to each other.
 
-## FIND LONGEST PALINDROME IN A WORD - find_longest_palindrome.py
+## Find palindrome/mirrors in a given word - find_longest_palindrome.py
 Return the length of longest possible chunked palindrome string. 
 
 Examples : 
@@ -53,3 +53,8 @@ No chunks possible.
 Explanation : 
 (ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)
 
+## Find matching pattern in a given word sequence - find_pattern.py
+
+Given a pattern and a string - find if the string follows the same pattern 
+
+Eg: Pattern : [a b b a], String : cat dog dog cat
