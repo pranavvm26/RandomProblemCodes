@@ -58,3 +58,11 @@ Explanation :
 Given a pattern and a string - find if the string follows the same pattern 
 
 Eg: Pattern : [a b b a], String : cat dog dog cat
+
+## Number pad combination - number_pad_combination.py
+
+Given a digit string, return all possible letter combinations that the number could represent. Mapping of digit to letters (just like on the telephone buttons or even your new touch-key pads).
+
+> Input:Digit string "23"
+
+> Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
