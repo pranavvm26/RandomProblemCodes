@@ -30,12 +30,11 @@ def find_pattern(pattern):
 
 
 if __name__ == "__main__":
-    pattern = input("please enter the pattern in csv format:")
-    user_pattern = input("enter the pattern in csv format:")
+    pattern = input("please enter the pattern in comma seperated format:")
+    user_pattern = input("enter the pattern in comma seperated format:")
     pattern = pattern.split(",")
     user_pattern = user_pattern.split(",")
     num_pattern = find_pattern(pattern)
-    print(num_pattern)
     ret = match_pattern(num_pattern, user_pattern)
     if len(ret) == 0:
         print("Pattern matches")
