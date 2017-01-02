@@ -1,6 +1,5 @@
 #RandomProblemCodes
 ##Matrix Problem - matrix_problem.py
-* Description: 
 Random generate a NxN matrix with only four types of element: 1,2,3,4. 
 However, no column or row can have same type of element appears 3 times or above continuously (three same type of elements are connected)
 
