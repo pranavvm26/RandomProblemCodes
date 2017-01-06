@@ -71,5 +71,5 @@ if __name__ == "__main__":
     for file_ in file_system_parsed:
         print(file_)
     sum_file_structure = find_sum_of_folders(file_system_structure=file_system_parsed)
-    print(sum_file_structure)
+    print("The sum of length of the folders containing images are :", sum_file_structure)
 
